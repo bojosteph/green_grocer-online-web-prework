@@ -1,3 +1,6 @@
+
+
+
 def consolidate_cart(array)
     # code here
     total = Hash.new
@@ -17,7 +20,7 @@ def consolidate_cart(array)
 
 
 def apply_coupons(cart, coupons)
-  # code here
+  
   
 end
 
