@@ -28,17 +28,15 @@ if item.split.inludes("W/COUPON")
    price = [:price] -= 1
 else 
   return cart
-end
-    
-     
-     
-    
-    
-  
-end
+ end
+end 
+
 
 def apply_clearance(cart)
   # code here
+  
+  
+  
 end
 
 def checkout(cart, coupons)
