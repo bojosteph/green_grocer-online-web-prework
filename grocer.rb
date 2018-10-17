@@ -3,7 +3,7 @@ def consolidate_cart(array)
     cart = Hash.new
     cart.each_with_index do |item, i|
     item.each do |item, info|
-      if result[food]
+      if result[item]
         result[food][:count] += 1
       else
         result[food] = info
