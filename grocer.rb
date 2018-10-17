@@ -1,5 +1,6 @@
 def consolidate_cart([])
     # code here
+    
     cart.each_with_index do |item, i|
     item.each do |food, info|
       if result[food]
