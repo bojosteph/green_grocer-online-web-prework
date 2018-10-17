@@ -23,7 +23,8 @@ def apply_coupons(cart, coupons)
   total = Hash.new
   
  cart.each do |item, coupon|
-   item.split
+if item.split.inludes("W/COUPON")
+  
     
      
      
