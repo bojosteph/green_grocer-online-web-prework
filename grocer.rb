@@ -1,12 +1,17 @@
 def consolidate_cart(array)
     # code here
     total = Hash.new
-    count = 0
+    count = 1
     
     cart.each_with_index do |item, i|
     item.each do |food, count|
       if count is >= 1
-        total[food][:count
+        total[food][:count] += 1
+      else 
+        :count = count
+      end
+    end
+  end
   
 
 
