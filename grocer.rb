@@ -22,9 +22,10 @@ def apply_coupons(cart, coupons)
   
   total = Hash.new
   
- if cart.includes?("coupons")
-    cart.each do |item, price|
-     if item_
+ cart.each do |item, coupon|
+   item.split
+    
+     
      
     
     
