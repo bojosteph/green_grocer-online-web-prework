@@ -23,6 +23,7 @@ def apply_coupons(cart, coupons)
   total = Hash.new
   
   if cart.include?("coupons")
+    
   
 end
 
