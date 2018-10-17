@@ -10,7 +10,7 @@ def consolidate_cart(array)
       if count is >= 1
         total[food][:count] += 1
       else 
-        :count = count
+        [:count] = count
       end
     end
   end
@@ -22,10 +22,13 @@ def apply_coupons(cart, coupons)
   
   total = Hash.new
   
- cart.each do |item, price|
+ cart.each do |item, price]
 if item.split.inludes("W/COUPON")
-  :price = consolidate_cart() 
-  
+   new_count = [:count] -= 1
+   price = [:price] -= 1
+else 
+  return cart
+end
     
      
      
