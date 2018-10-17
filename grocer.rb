@@ -22,8 +22,9 @@ def apply_coupons(cart, coupons)
   
   total = Hash.new
   
- cart.each do |item, coupon|
+ cart.each do |item, price|
 if item.split.inludes("W/COUPON")
+  :price = consolidate_cart() 
   
     
      
