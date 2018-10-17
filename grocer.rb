@@ -13,8 +13,8 @@ def consolidate_cart([])
     end
   end
   total
-end
-  result
+
+  
 end
 end
 
