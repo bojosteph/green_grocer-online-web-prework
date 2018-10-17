@@ -1,4 +1,4 @@
-def consolidate_cart(array)
+def consolidate_cart([])
     # code here
     cart = Hash.new
     cart.each_with_index do |item, i|
