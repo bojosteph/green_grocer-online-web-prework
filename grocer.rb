@@ -12,7 +12,7 @@ def consolidate_cart(array)
       end
     end
   end
-  total
+puts  total
  end
   
 
