@@ -23,6 +23,9 @@ def apply_coupons(cart, coupons)
   total = Hash.new
   
   if cart.include?("coupons")
+    cart.each do |food, count|
+  if :count > 1 
+    
     
   
 end
