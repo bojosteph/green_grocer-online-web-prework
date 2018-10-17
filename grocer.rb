@@ -24,7 +24,7 @@ def apply_coupons(cart, coupons)
   
  if cart.includes?("coupons")
     cart.each do |count, price|
-
+      if 
     
     
   
