@@ -7,12 +7,12 @@ def consolidate_cart([])
       if total[food]
         total[food][:count] += 1
       else
-        assert_not_equal[food] = info
-        result[food][:count] = 1
+        total[food] = info
+        total[food][:count] = 1
       end
     end
   end
-  result
+  total
 end
   result
 end
