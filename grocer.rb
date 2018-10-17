@@ -1,10 +1,9 @@
 
-    total = Hash.new
-    count = 1
-
+   
 def consolidate_cart(array)
     # code here
-    
+    total = Hash.new
+    count = 1
     
     cart.each_with_index do |item, i|
     item.each do |food, count|
@@ -20,7 +19,10 @@ def consolidate_cart(array)
 
 
 def apply_coupons(cart, coupons)
-  cart.each do 
+  
+  total = Hash.new
+  
+  if cart.include?("coupons")
   
 end
 
