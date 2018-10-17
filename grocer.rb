@@ -1,4 +1,4 @@
-def consolidate_cart([])
+def consolidate_cart(array)
     # code here
     total = Hash.new
     
