@@ -5,6 +5,7 @@
 def consolidate_cart(array)
     # code here
     
+    
     cart.each_with_index do |item, i|
     item.each do |food, count|
       if count is >= 1
