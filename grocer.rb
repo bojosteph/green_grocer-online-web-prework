@@ -1,16 +1,17 @@
 def consolidate_cart([])
     # code here
-    cart = Hash.new
     cart.each_with_index do |item, i|
     item.each do |food, info|
-      if result[item]
-        result[item][:count] += 1
+      if result[food]
+        result[food][:count] += 1
       else
-        result[item] = info
-        result[item][:count] = 1
+        result[food] = info
+        result[food][:count] = 1
       end
     end
   end
+  result
+end
   result
 end
 end
